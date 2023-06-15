@@ -5,15 +5,15 @@
             steps {
                 sh "ls"
 } }
-        stage(‘second stage’){
+        stage("second stage"){
             steps {
-sh “pwd” }
+sh "pwd" }
 } }
-        stage(‘third stage’){
+        stage("third stage"){
             steps {
-sh “touch docker.txt” }
+sh "touch docker.txt" }
 } }
-         stage(‘fouth stage’){
+         stage("fouth stage"){
             steps {
-sh “mv docker.txt mydir” }
+sh "mv docker.txt mydir" }
 } }
